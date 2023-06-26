@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.big-container{
+    width: 100%;
+    margin: 2px dashed black;
+}
+
+.mid-container{
+    width: 1180px;
+    margin: 2px dashed black auto;
+}
+
+.sml-container{
+    width: 900px;
+    margin: 2px dashed black auto;
+}
