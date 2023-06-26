@@ -31,8 +31,21 @@ ul{
     list-style: none;
 }
 
+h1{
+    font-size: 4rem;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
 .bg-lightblue{
     background-color: #b4d0e7;
+}
+
+.button{
+    background-color: #0061ff;
+    padding: 5px 10px;
+    text-align: center;
+    line-height: 50px;
 }
 
 /* 
@@ -47,6 +60,14 @@ ul{
     justify-content: space-between;
 }
 
+.flex-column{
+    flex-direction: column;
+}
+
+.self-start{
+    align-self: flex-start;
+}
+
 /*
      HEADER
  */
@@ -55,10 +76,12 @@ ul{
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    padding-bottom: 20px;
  }
 
+
+
  .header-section{
-    background-color: aqua;
     width: 1180px;
     margin: 0 auto;
     text-align: center;
@@ -67,4 +90,8 @@ ul{
 
  .jumbo-img{
     width: 800px;
+ }
+
+ .left-col{
+    text-align: start;
  }

@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONT AWESOME LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS STYLE LINK -->
     <link rel="stylesheet" href="./css/style.css">
     <title>Dropbox</title>
 </head>
@@ -27,16 +32,30 @@
                 </ul>
             </div>
         </nav>
-        <section class="header-section">
-            <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
-            <div class="flex">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto adipisci laborum quia obcaecati in libero, eveniet, magnam ad fugit est tempore esse? Nostrum omnis illo veniam numquam illum! Nemo, optio!
-                </p>
-                <img class="jumbo-img" src="./img/jumbo.png" alt="">
+        <div class="big-container bg-lightblue">
+            <section class="header-section">
+                <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
+                <div class="flex">
+                    <div class="flex justify-between flex-column">
+                        <div class="left-col">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  Architecto adipisci laborum quia obcaecati in libero, eveniet,      magnam ad fugit est tempore esse? Nostrum omnis illo veniam     numquam  illum! Nemo, optio!
+                            </p>
+                            <span class="button">Inizia la tua prova gratuita</span>
+                            <p>Annulla in qualsiasi momento</p>
+                        </div>
+                        <i class="fa-solid fa-arrow-down self-start"></i>
+                    </div>
+                    <img class="jumbo-img" src="./img/jumbo.png" alt="">
 
-            </div>
+                </div>
 
-        </section>
+            </section>
+            <section class="buisness-plan">
+                <h2>Trova il piano buisness che fa per te</h2>
+                <input type="radio"> <h5>Fatturazione Mensile</h5>
+                <input type="radio"> <h5>Fatturazione Annuale</h5>
+            </section>
+        </div>
     </header>
     
 </body>
