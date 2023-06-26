@@ -4,17 +4,51 @@
     padding: 0;
 }
 
+/* 
+    UTILS 
+*/
+
 .big-container{
-    width: 100%;
-    margin: 2px dashed black;
+    width: 100vw;
+    border: 2px dashed black;
 }
 
 .mid-container{
     width: 1180px;
-    margin: 2px dashed black auto;
+    border: 2px dashed black;
 }
 
 .sml-container{
     width: 900px;
-    margin: 2px dashed black auto;
+    border: 2px dashed black;
 }
+
+ul{
+    list-style: none;
+}
+
+.bg-lightblue{
+    background-color: aqua;
+}
+
+/* 
+    FLEX CLASSES
+ */
+
+.flex{
+    display: flex;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+/*
+     NAVBAR
+ */
+
+ .title-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+ }
