@@ -23,12 +23,16 @@
     border: 2px dashed black;
 }
 
+img{
+    max-width: 100%;
+}
+
 ul{
     list-style: none;
 }
 
 .bg-lightblue{
-    background-color: aqua;
+    background-color: #b4d0e7;
 }
 
 /* 
@@ -44,11 +48,23 @@ ul{
 }
 
 /*
-     NAVBAR
+     HEADER
  */
 
  .title-nav{
     display: flex;
     justify-content: space-between;
     padding: 10px;
+ }
+
+ .header-section{
+    background-color: aqua;
+    width: 1180px;
+    margin: 0 auto;
+    text-align: center;
+
+ }
+
+ .jumbo-img{
+    width: 800px;
  }
