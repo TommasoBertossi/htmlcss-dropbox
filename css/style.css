@@ -26,6 +26,10 @@
     margin: 0 auto;
 }
 
+section{
+    padding: 50px;
+}
+
 img{
     max-width: 100%;
 }
@@ -152,10 +156,26 @@ FIRST SECTION
     SECOND SECTION
  */
 
+.cards-section{
+    display: flex;
+    gap: 20px;
+}
+
+.fatturation-choice{
+    padding: 30px 0;
+}
+
 .fatturation-type{
     display: inline;
 }
 
 .card{
     border: 1px solid gray;
+    max-width: calc(100% / 3);
+}
+
+.card-btn{
+    width: 80%;
+    padding: 5px auto;
+    text-align: center;
 }
