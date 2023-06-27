@@ -11,16 +11,19 @@
 .big-container{
     max-width: 100%;
     border: 2px dashed black;
+    margin: 0 auto;
 }
 
 .mid-container{
     max-width: 1200px;
     border: 2px dashed black;
+    margin: 0 auto;
 }
 
 .sml-container{
     max-width: 1000px;
     border: 2px dashed black;
+    margin: 0 auto;
 }
 
 img{
@@ -97,40 +100,54 @@ h1{
     justify-content: space-between;
     padding: 10px;
     padding-bottom: 20px;
- }
+}
 
 
-
- .header-section{
-    width: 1180px;
-    margin: 0 auto;
-    text-align: center;
-
- }
-
- .main-header .row {
-     padding: 28px;
-     align-items: center;
-     justify-content: space-between;
-     flex-wrap: wrap;
- }
-
-
- .menu-link {
-     padding: 0 18px;
-     white-space: nowrap;
- }
-
-
-.menu__link.logo {
+.menu-link {
+    padding: 0 18px;
+    white-space: nowrap;
+}
+ 
+ 
+ .menu__link.logo {
     padding-left: 0;
 }
 
 
- .jumbo-img{
-    width: 800px;
- }
 
- .left-col{
-    text-align: start;
- }
+
+/*
+FIRST SECTION 
+*/
+
+.jumbo-img{
+    width: 800px;
+}
+
+
+.header-section{
+    width: 1180px;
+    margin: 0 auto;
+       text-align: center;
+       
+}
+    
+    .main-header .row {
+        padding: 28px;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+}
+    
+    .left-col{
+        text-align: start;
+}
+    
+    
+/* 
+    SECOND SECTION
+ */
+
+.fatturation-type{
+    display: inline;
+}
