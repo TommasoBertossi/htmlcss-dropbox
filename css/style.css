@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
 /* 
     UTILS 
 */
@@ -64,6 +68,10 @@ h1{
 
 .color-gray{
     color: gray;
+}
+
+.text-center{
+    text-align: center;
 }
 
 /* 
@@ -172,10 +180,20 @@ FIRST SECTION
 .card{
     border: 1px solid gray;
     max-width: calc(100% / 3);
+    padding: 15px;
+}
+
+.card-icon{
+    text-align: center;
+    border-bottom: 1px solid gray;
 }
 
 .card-btn{
     width: 80%;
     padding: 5px auto;
     text-align: center;
+}
+
+.card ul{
+    padding-top: 30px;
 }
