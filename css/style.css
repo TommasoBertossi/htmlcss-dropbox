@@ -58,6 +58,10 @@ h1{
     display: flex;
 }
 
+.color-gray{
+    color: gray;
+}
+
 /* 
     FLEX CLASSES
  */
@@ -109,7 +113,7 @@ h1{
 }
  
  
- .menu__link.logo {
+ .menu-link.logo {
     padding-left: 0;
 }
 
@@ -150,4 +154,8 @@ FIRST SECTION
 
 .fatturation-type{
     display: inline;
+}
+
+.card{
+    border: 1px solid gray;
 }
