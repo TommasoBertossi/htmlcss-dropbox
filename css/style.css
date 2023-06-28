@@ -1,3 +1,7 @@
+:root{
+    --blue: #0061ff;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -26,7 +30,7 @@ html {
 
 .sml-container{
     max-width: 1000px;
-    /* border: 2px dashed black; */
+    
     margin: 0 auto;
 }
 
@@ -52,7 +56,7 @@ h1{
     background-color: #b4d0e7;
 }
 
-.button{
+/* .button{
     background-color: #0061ff;
     padding: 0 17px;
     text-align: center;
@@ -60,7 +64,21 @@ h1{
     font-size: 18px;
     display: inline-block;
 }
+ */
 
+.button {
+    line-height: 44px;
+    font-size: 18px;
+    padding: 0 17px;
+    text-align: center;
+    display: inline-block;
+}
+
+.button-blue {
+    background-color: var(--blue);
+    border-color: var(--blue);
+    color: white;
+}
 
 .row{
     display: flex;
@@ -167,7 +185,11 @@ FIRST SECTION
 .cards-section{
     display: flex;
     gap: 20px;
-}
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    }
+
 
 .fatturation-choice{
     padding: 30px 0;
@@ -179,13 +201,22 @@ FIRST SECTION
 
 .card{
     border: 1px solid gray;
-    max-width: calc(100% / 3);
+    flex-grow: 1;
+    flex-basis: 0;
+   /*  max-width: calc(100% / 3);
     padding: 15px;
+ */
 }
 
 .card-icon{
     text-align: center;
     border-bottom: 1px solid gray;
+}
+
+
+.card-bottom {
+    width: 100%;
+    border: 1px solid gray;
 }
 
 .card-btn{
@@ -196,4 +227,22 @@ FIRST SECTION
 
 .card ul{
     padding-top: 30px;
+}
+
+
+.card-body{
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+
+.plan-title {
+    font-size: 24px;
+}
+
+.card-bottom .flex{
+    align-items: center;
+    justify-content: space-between;
 }
