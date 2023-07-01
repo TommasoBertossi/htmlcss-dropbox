@@ -56,6 +56,10 @@ h1{
     background-color: #b4d0e7;
 }
 
+.padding-bottom{
+    padding-bottom: 30px;
+}
+
 /* .button{
     background-color: #0061ff;
     padding: 0 17px;
@@ -80,6 +84,13 @@ h1{
     color: white;
 }
 
+.button-grey{
+    border-left: 1px solid black ;
+    border-bottom: 1px solid black;
+    border-right: 1px solid grey;
+    border-top: 1px solid grey;
+}
+
 .row{
     display: flex;
 }
@@ -90,6 +101,22 @@ h1{
 
 .text-center{
     text-align: center;
+}
+
+.col-60{
+    width: 60%;
+}
+
+.col-50{
+    width: 50%;
+}
+
+.col-40{
+    width: 40%;
+}
+
+.col-30{
+    width: 30%;
 }
 
 /* 
@@ -116,6 +143,10 @@ h1{
 
 .self-start{
     align-self: flex-start;
+}
+
+.wrap{
+    flex-wrap: wrap;
 }
 
 /*
@@ -245,4 +276,22 @@ FIRST SECTION
 .card-bottom .flex{
     align-items: center;
     justify-content: space-between;
+}
+
+/* THIRD SECTION */
+
+.partner-text{
+    padding: 20px;
+    text-align: left;
+
+    width: 40%;
+}
+
+
+.buisness-card{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    text-align: left;
+    padding: 20px;
 }
